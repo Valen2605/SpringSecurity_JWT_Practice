@@ -2,7 +2,11 @@ package com.valentina.SpringSecurityJWT.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
+import com.valentina.SpringSecurityJWT.entity.OurUsers;
+import com.valentina.SpringSecurityJWT.entity.Product;
 import lombok.Data;
+
+import java.util.List;
 
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
